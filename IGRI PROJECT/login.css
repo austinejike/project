@@ -1,0 +1,106 @@
+body.login-body {
+    background-color: #e6f2ff
+
+} 
+.container.login-container{
+    margin-top: 10%;
+}
+
+.card.login-card{
+    padding: 40px 0 20px;
+    background-color: #f4f4f4; 
+    box-shadow: 2px 2px 5px rgba(0, 0 , 0, .5);
+}
+img.login-image{
+    padding: 0 2rem 2rem;
+    margin: auto;
+    display: block;
+    width: 70%;
+}
+#message1, #message, #message2{
+    color: #e60000;
+}
+
+form.login-form {
+    max-width: 200px;
+    margin: auto;
+
+}
+button.login-btn{
+    color: #ffffff;
+    background-color: green;
+    width: 100%;
+    margin-bottom: 1.2rem;
+
+}
+ a.create-new-account{
+     font-size: 15px;
+     text-align: center;
+     display: block;
+     margin-top: 13px;
+ }
+
+ .container-fluid {
+     background-color: #228b22;
+     height: 140px;
+     
+    
+ }
+ img.coat-of-arms{
+    width: 150px;
+    height: 112px;
+    margin: 12px 0 0 70px;
+ }
+ button.btn-right{
+    float: right;
+    margin: 50px 120px 50px 0;
+    background-color:#e60000;
+    color: #fff;
+    
+    
+ }
+ .nav-mail{
+    margin: 0 0 0 625px;
+    color: #ffffff;
+ }
+ .make-pay{
+     margin-top: 3%;
+     color: #ff751a;
+ }
+.department-of-petroleum{
+    margin-top: 5%;
+
+}
+
+/*.item-tbl, .table-list{
+    display: none;
+}*/
+
+.qty{
+    width: 60px;
+}
+
+.form-control.pay-address{
+    margin-bottom: 12px;
+}
+
+button.btn-submit{
+    background: #228b22;
+    margin: 0 0 5% 70%;
+    width: 150px;
+}
+ #displayForm{
+    display: none;
+}
+.p_success{
+    font-weight: bolder;
+    color: #228b22;
+    text-align: center;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.table .table-sm .tblsmall{
+    margin: 10%;
+}
+ 

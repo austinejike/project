@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="login.css">
+    <script src="js/jquery.js"></script>
+
+    <title>IGRI FORM</title>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+        <nav>
+            <img src="images (5).jpeg" alt="Nigeria coat of arms" class="coat-of-arms">
+           <span class="nav-mail"><i>jbgroup@yahoomail.com!</i></span>
+           <button class="btn-sm btn-right" id="btnLogOff">log off</button>
+            
+        </nav>
+
+    </div>
+
+    <div class="container" id="form_container">
+        <h3 class="make-pay">Make Payment</h3>
+
+        <h2 class="department-of-petroleum">DEPARTMENT OF PETROLEUM RESOURCES(DPR)</h2>
+        <form>
+            <!--<div class="form-group">
+              <label for="exampleFormControlSelect1">Division*</label>
+              <select class="form-control" id="exampleFormControlSelect1">     
+                <option value="" id="">Please Select Division</option>
+                <option value="" id="">GAS- NETWORK CODE(NGTNC)</option>
+                <option value="" id="">Downstreatm</option>
+                <option value="" id="">Engineering & Standards</option>
+                <option value="" id="">Environment</option>
+               <option value="" id="">Field office(Calabar)</option>
+               <option value="" id="">GMR</option>
+              </select value="" id="">
+            </div>-->
+            <div class="form-group">
+              <label for="exampleFormControlSelect2">Name of service/Purpose*</label>
+              <select class="form-control select-control" id="exampleFormControlSelect2" >
+                <option value="1" >Please Select Services</option>
+                <option value="2" >Aproval  to Buy Underground LNG Storage</option>
+                <option value="3" >Depot Draft Environment impact Assesment Aproval</option>
+                <option value="4" >Dopot Point Source Registration/waste Streams</option>
+                <option value="5" >Depot Decommissioning plan</option>
+                <option value="6" >Aproval  to install Aboveground LPG Storage Tank</option>
+              </select>
+            </div>
+
+            <table class="table item-tbl" id="tblItem">
+                <p class="table-list" id="tblList">Amount Item list</p>
+                <thead id="tblHead">
+                  <tr>
+                    <th scope="col">Item</th>
+                    <th scope="col">Unite price</th>
+                    <th scope="col">Qty</th>
+                    <th scope="col">price</th>
+                  </tr>
+                </thead>
+                <tbody id="tbody">
+                <!--<tr>
+                  <td><input type="radio"></td>
+                  <td>Otto</td>
+                  <td><input type="number" class="qty"  value="1"></td>
+                  <td>ottii</td>
+                </tr>-->
+              </tbody>
+              </table> 
+                <div class="row">
+                  <div class="col">
+                    <label for="amount to pay">Amount To Pay(₦)*</label>
+                    <br>
+                    <input type="text" id="amountToPay" class="form-control pay_money" placeholder="Amonunt to pay" readonly>
+                  </div>
+                  <div class="col">
+                    <label for="payers name">Payer's Name*</label>
+                    <br>
+                    <input type="text" class="form-control" placeholder="JB Group" id="payersName">
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <br>
+                      <label for="phone number">Phone Number*</label>
+                      <br>
+                      <input type="text" class="form-control" id="phoneNumber" >
+                    </div>
+                     <div class="col">
+                  </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col">
+                          <label for="amount to pay"> Payer's Address*</label>
+                          <br>
+                          <input type="text" class="form-control pay-address" id="payerAddress">
+                        </div> 
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputCity">Payer's State*</label>
+                          <select id="inputState" class="form-control">
+                            <option selected>Sleect State</option>
+                            <option value="Abia">Abia State Umuahia</option>
+                            <option value="Adamawa">Adamawa Yola</option>
+                            <option value="Akwa">Akwa Ibom Uyo</option>
+                            <option value="Anambra">Anambra Awka</option>
+                            <option value="Bauchi">Bauchi Bauchi</option>
+                            <option value="Bayelsa">Bayelsa Yenagoa</option>
+                            <option value="Benue">Benue Makurdi</option>
+                            <option value="Borno">Borno Maiduguri</option>
+                            <option value="Cross">Cross River Calabar</option>
+                            <option value="Delta">Delta Asaba</option>
+                            <option value="Ebonyi">Ebonyi Abakaliki</option>
+                            <option value="Edo">Edo Benin </option>
+                            <option value="Ekiti">Ekiti Ado-Ekiti</option>
+                            <option value="Enugu">Enugu Enugu</option>
+                            <option value="FCT">FCT Abuja</option>
+                            <option value="Gombe">Gombe Gombe</option>
+                            <option value="Imo">Imo Owerri</option>
+                            <option value="Jigawa">Jigawa Dutse</option>
+                            <option value="Kaduna">Kaduna Kaduna</option>
+                            <option value="Kano">Kano Kano</option>
+                            <option value="Katsina">Katsina Katsina</option>
+                            <option value="Kebbi">Kebbi Birnin Kebgi</option>
+                            <option value="Kogi">Kogi Lokoja</option>
+                            <option value="Kwara">Kwara Ilorin </option>
+                            <option value="Lagos">Lagos Ikeja</option>
+                            <option value="Nassarawa">Nassarawa Lafia</option>
+                            <option value="Niger">Niger Mina</option>
+                            <option value="Ogun">Ogun Abeokuta</option>
+                            <option value="Ondo">Ondo Akure </option>
+                            <option value="Osun">Osun Osogbo </option>
+                            <option value="Oyo">Oyo Ibadan</option>
+                            <option value="Plateau">Plateau Jos</option>
+                            <option value="Rivers">Rivers Port Harcourt</option>
+                            <option value="Sokoto">Sokoto Sokoto</option>
+                            <option value="Taraba">Taraba Jalingo</option>
+                            <option value="Yola">Yobe Damaturu</option>
+                            <option value="Zamfara">Zamfara Gusau</option>
+                          </select>
+                        </div>
+                        <div class="form-group col-md-4">
+                           <!--<label for="inputState">Payer's LGA*</label>
+                            <select id="inputState" class="form-control">
+                             <option selected>Choose...</option>
+                            <option>...</option>
+                          </select>-->
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-lg btn-primary btn-submit" id="submitBtn">submit</button>
+          </form>
+        
+    </div>
+    <div class="container" id="displayForm">
+      <div>
+        <p class="p_success"><i>Form submited successfuly</i></p>
+      </div>
+      <table class="table table-sm tblsmall" id="tblSmall" >
+        <thead>
+          <tr>
+            <th scope="col" class="payers_name">Payer's Name</th>
+            <th scope="col">Amonunt To Pay</th>
+            <th scope="col">Payer's Address</th>
+            <th scope="col">Phone Number</th>
+            <th scope="col">Payer's State</th>
+          </tr>
+        </thead>
+        <tbody id="tbody1">
+          <!--<tr>
+            <td>mista uzo</td>
+            <td>Mark</td>
+            <td>nallskdkkdncnn nkcnccnn id</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+          </tr>-->
+          
+        </tbody>
+      </table>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <script src="IGR.js"></script>
+  </body>
+</html>
