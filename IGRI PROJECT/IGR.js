@@ -70,11 +70,10 @@ $(".select-control").change(function(){
                 $("#amountToPay").attr("placeholder", pay2)
                 // console.log(newPrice)
                 
-                $("#submitBtn").click(function(e){
-                    e.preventDefault()
+                $("#submitBtn").click(function(){
+                    $("#tbody1").html("")
                     $("#form_container").hide()
                     $("#displayForm").show()
-                    //setTimeout(()=>$(".p_success").remove(), 3000)
                      var name = $("#payersName").val();
                    // var payMoney= $(".pay_money").val();
                      var address = $("#payerAddress").val();
@@ -87,15 +86,12 @@ $(".select-control").change(function(){
                     <td>${pNumber}</td>
                     <td>${state}</td>
                     </tr>`)
-                    
                     $(".tbltr").hide()
                   // alert(1)
                 });
                 
-            }) 
-        //$(".price2").html(`<p>${multply}</p>`) 
-
-        } ;     
+            }); 
+        };     
     });
 
 });
@@ -104,7 +100,7 @@ $("#btnLogOff").click(function(){
     if (confirm('Do you want to Logoff from this page?')) {
         window.location = "login.html"
      }
-})
+});
 
    
  
